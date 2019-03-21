@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: aquamarine
 }
 
 h1 {
@@ -15,3 +16,17 @@ h2 {
 .ingredients-list {
   list-style: square inside;
 }
+
+ul {
+  list-style: katakana inside;
+}
+
+header > img {
+  min-width: 100px
+}
+
+ul > li > a {
+  color: inherit;
+  text-decoration: none
+}
+
